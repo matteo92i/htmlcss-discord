@@ -27,9 +27,11 @@
 }
 nav{
     float: left;
-    
-    
 }
+    
+    
+    
+    
     
 .conteiner-1{
     max-width: 1200px;
@@ -40,6 +42,7 @@ nav{
 ul{
     list-style: none;
     display: inline-block;
+    margin-left: 250px;
     
     
     
@@ -47,7 +50,9 @@ ul{
 li{
     display: inline-block;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 20px;
+    
     
 }
 .button{

@@ -41,8 +41,8 @@ nav{
 }
 ul{
     list-style: none;
-    display: inline-block;
-    margin-left: 250px;
+    text-align: center;
+    
     
     
     
@@ -126,6 +126,17 @@ li{
 }
 section{
     text-align: center;
+}
+header{
+    height: 100px;
+}
+.dimensioni{
+    width: 25%;
+    height: 100px;
+}
+.dimensioni-1{
+    width: 50%;
+    height: 100px;
 }
 
 

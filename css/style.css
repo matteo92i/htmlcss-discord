@@ -5,6 +5,7 @@
 }
 .vh{
     height: 100vh;
+    position: relative;
 }
 .jumbo{
     height: 600px;
@@ -32,9 +33,11 @@ nav{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 20px;
+    
 }
 ul{
     list-style: none;
+    
 }
 li{
     display: inline-block;
@@ -48,6 +51,20 @@ li{
     background-color: white;
     border-radius: 20px;
     text-align: center;
+}
+.posizione{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+    color: white;
 }
     
 

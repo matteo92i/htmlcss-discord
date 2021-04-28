@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.vh{
+    height: 100vh;
+}
+.jumbo{
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.floatL{
+    float: left;
+}
+.floatR{
+    float: right;
+}
+nav{
+    float: left;
+}
+    
+.conteiner-1{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+}
+.button{
+    border: 2px solid black;
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+    
+
+    
+
+    
+
+
